@@ -1,5 +1,5 @@
 let button = document.querySelector("#search")
-
+let imgHere = document.querySelector("#imgHere")
 //Event Listener for the button to run apiRequest when clicked.
 button.addEventListener("click", () => {
   console.log("button pressed")
@@ -13,10 +13,10 @@ async function apiRequest() {
   console.log(response)
   let data = await response.json()
   displayApiData(data)
-  
+  console.log(data)
 }
 
 //display nasa api info
-function displayApiData(data) => {
-    imgHere.src = data;
+function displayApiData(data) {
+imgHere.src = data.url
 }
