@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   
+}
+#whole_page {
+    background-image: url(assets\space-g07b919805_1920.jpg);
+    background-size: cover;
+padding: 30px;
+}
+   h1 {
+text-align: center;
+
+
+}
+
+#search_button {
+    
+
+}
+
+img {
+    
+}
